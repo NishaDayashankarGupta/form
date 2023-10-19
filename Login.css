@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+
+    font-family: 'Bentham', serif;
+font-family: 'Cormorant Upright', serif;
+font-family: 'Pacifico', cursive;
+}
+
+label,input,a{
+display: block;
+margin-bottom: 15px;
+/* space between content */
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+form{
+    background-color: red;
+    width: 25%;
+    border-radius: 5px;
+    padding: 20px;
+    color: black;
+}
+
+label{
+    font-size: 20px;
+}
+input{
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+#new{
+    text-align: center;
+}
+
+#but{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 25%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+}
+
+#can{
+    background-color: yellow;
+}
+#icon{
+position: relative;
+}
+
+.fa-regular{
+    color: yellow;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+}
