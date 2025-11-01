@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     background-color: bisque;
-
     font-family: 'Bentham', serif;
 font-family: 'Cormorant Upright', serif;
 font-family: 'Pacifico', cursive;
@@ -11,7 +10,6 @@ font-family: 'Pacifico', cursive;
 label,input,a{
 display: block;
 margin-bottom: 15px;
-/* space between content */
 }
 
 #main{
@@ -62,7 +60,6 @@ button{
     height: 30px;
     border: none;
     border-radius: 5px;
-    /* background-color: blue; */
     color: #000;
     font-size: 15px;
 }
@@ -70,17 +67,8 @@ button{
 #can{
     background-color: yellow;
 }
-/* #icon{
-position: relative;
-}
 
-.fa-regular{
-    color: yellow;
-    position: absolute;
-    top: 20%;
-    left: 3%;
 
-} */
 
 
 
